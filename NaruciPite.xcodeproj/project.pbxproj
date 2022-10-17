@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3175F528F94FF000C603C5 /* NaruciPiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3175F428F94FF000C603C5 /* NaruciPiteApp.swift */; };
+		FD3175F728F94FF000C603C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3175F628F94FF000C603C5 /* ContentView.swift */; };
+		FD3175F928F94FF200C603C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3175F828F94FF200C603C5 /* Assets.xcassets */; };
+		FD3175FC28F94FF200C603C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3175FB28F94FF200C603C5 /* Preview Assets.xcassets */; };
+		FD31760328F9502900C603C5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31760228F9502900C603C5 /* ProfileView.swift */; };
+		FD31760528F9503E00C603C5 /* PiteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31760428F9503E00C603C5 /* PiteDetailView.swift */; };
+		FD31760728F9505800C603C5 /* PiteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31760628F9505800C603C5 /* PiteListView.swift */; };
+		FD31760928F9507200C603C5 /* CreateUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31760828F9507200C603C5 /* CreateUserView.swift */; };
+		FD31760B28F9508700C603C5 /* PlaceOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31760A28F9508700C603C5 /* PlaceOrderView.swift */; };
+		FD31760D28F9509E00C603C5 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31760C28F9509E00C603C5 /* DateView.swift */; };
+		FD31760F28F9510B00C603C5 /* OrderPlacedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31760E28F9510B00C603C5 /* OrderPlacedView.swift */; };
+		FD31761228F9693200C603C5 /* burek.png in Resources */ = {isa = PBXBuildFile; fileRef = FD31761128F9693200C603C5 /* burek.png */; };
+		FD31761528FABD6600C603C5 /* Pita.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31761428FABD6600C603C5 /* Pita.swift */; };
+		FD31761728FAD18100C603C5 /* zeljanica.png in Resources */ = {isa = PBXBuildFile; fileRef = FD31761628FAD18100C603C5 /* zeljanica.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD3175F128F94FF000C603C5 /* NaruciPite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaruciPite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3175F428F94FF000C603C5 /* NaruciPiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaruciPiteApp.swift; sourceTree = "<group>"; };
+		FD3175F628F94FF000C603C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD3175F828F94FF200C603C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD3175FB28F94FF200C603C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD31760228F9502900C603C5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FD31760428F9503E00C603C5 /* PiteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiteDetailView.swift; sourceTree = "<group>"; };
+		FD31760628F9505800C603C5 /* PiteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiteListView.swift; sourceTree = "<group>"; };
+		FD31760828F9507200C603C5 /* CreateUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserView.swift; sourceTree = "<group>"; };
+		FD31760A28F9508700C603C5 /* PlaceOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderView.swift; sourceTree = "<group>"; };
+		FD31760C28F9509E00C603C5 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		FD31760E28F9510B00C603C5 /* OrderPlacedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPlacedView.swift; sourceTree = "<group>"; };
+		FD31761128F9693200C603C5 /* burek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burek.png; sourceTree = "<group>"; };
+		FD31761428FABD6600C603C5 /* Pita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pita.swift; sourceTree = "<group>"; };
+		FD31761628FAD18100C603C5 /* zeljanica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zeljanica.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD3175EE28F94FF000C603C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3175E828F94FF000C603C5 = {
+			isa = PBXGroup;
+			children = (
+				FD3175F328F94FF000C603C5 /* NaruciPite */,
+				FD3175F228F94FF000C603C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3175F228F94FF000C603C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD3175F128F94FF000C603C5 /* NaruciPite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD3175F328F94FF000C603C5 /* NaruciPite */ = {
+			isa = PBXGroup;
+			children = (
+				FD31761128F9693200C603C5 /* burek.png */,
+				FD31761628FAD18100C603C5 /* zeljanica.png */,
+				FD3175F428F94FF000C603C5 /* NaruciPiteApp.swift */,
+				FD31761328FABD4D00C603C5 /* Models */,
+				FD31761028F9512700C603C5 /* Views */,
+				FD3175F828F94FF200C603C5 /* Assets.xcassets */,
+				FD3175FA28F94FF200C603C5 /* Preview Content */,
+			);
+			path = NaruciPite;
+			sourceTree = "<group>";
+		};
+		FD3175FA28F94FF200C603C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD3175FB28F94FF200C603C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD31761028F9512700C603C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD3175F628F94FF000C603C5 /* ContentView.swift */,
+				FD31760A28F9508700C603C5 /* PlaceOrderView.swift */,
+				FD31760C28F9509E00C603C5 /* DateView.swift */,
+				FD31760228F9502900C603C5 /* ProfileView.swift */,
+				FD31760828F9507200C603C5 /* CreateUserView.swift */,
+				FD31760E28F9510B00C603C5 /* OrderPlacedView.swift */,
+				FD31760428F9503E00C603C5 /* PiteDetailView.swift */,
+				FD31760628F9505800C603C5 /* PiteListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD31761328FABD4D00C603C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD31761428FABD6600C603C5 /* Pita.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD3175F028F94FF000C603C5 /* NaruciPite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3175FF28F94FF200C603C5 /* Build configuration list for PBXNativeTarget "NaruciPite" */;
+			buildPhases = (
+				FD3175ED28F94FF000C603C5 /* Sources */,
+				FD3175EE28F94FF000C603C5 /* Frameworks */,
+				FD3175EF28F94FF000C603C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaruciPite;
+			productName = NaruciPite;
+			productReference = FD3175F128F94FF000C603C5 /* NaruciPite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD3175E928F94FF000C603C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FD3175F028F94FF000C603C5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = FD3175EC28F94FF000C603C5 /* Build configuration list for PBXProject "NaruciPite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD3175E828F94FF000C603C5;
+			productRefGroup = FD3175F228F94FF000C603C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD3175F028F94FF000C603C5 /* NaruciPite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD3175EF28F94FF000C603C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD31761228F9693200C603C5 /* burek.png in Resources */,
+				FD31761728FAD18100C603C5 /* zeljanica.png in Resources */,
+				FD3175FC28F94FF200C603C5 /* Preview Assets.xcassets in Resources */,
+				FD3175F928F94FF200C603C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD3175ED28F94FF000C603C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3175F728F94FF000C603C5 /* ContentView.swift in Sources */,
+				FD31760928F9507200C603C5 /* CreateUserView.swift in Sources */,
+				FD31760D28F9509E00C603C5 /* DateView.swift in Sources */,
+				FD31760328F9502900C603C5 /* ProfileView.swift in Sources */,
+				FD31760F28F9510B00C603C5 /* OrderPlacedView.swift in Sources */,
+				FD3175F528F94FF000C603C5 /* NaruciPiteApp.swift in Sources */,
+				FD31760728F9505800C603C5 /* PiteListView.swift in Sources */,
+				FD31761528FABD6600C603C5 /* Pita.swift in Sources */,
+				FD31760528F9503E00C603C5 /* PiteDetailView.swift in Sources */,
+				FD31760B28F9508700C603C5 /* PlaceOrderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD3175FD28F94FF200C603C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD3175FE28F94FF200C603C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD31760028F94FF200C603C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NaruciPite/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YS4N553XZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.NaruciPite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD31760128F94FF200C603C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NaruciPite/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YS4N553XZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.NaruciPite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3175EC28F94FF000C603C5 /* Build configuration list for PBXProject "NaruciPite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3175FD28F94FF200C603C5 /* Debug */,
+				FD3175FE28F94FF200C603C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3175FF28F94FF200C603C5 /* Build configuration list for PBXNativeTarget "NaruciPite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD31760028F94FF200C603C5 /* Debug */,
+				FD31760128F94FF200C603C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD3175E928F94FF000C603C5 /* Project object */;
+}
