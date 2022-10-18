@@ -11,13 +11,13 @@ struct ContentView: View {
     let pite : [Pita]
     
     var body: some View {
-        NavigationView{
+        
             VStack {
                 if(true){
-                    PiteListView(pite:pite)
+                    PiteListView(pite:pite , cijena: "")
                     
                 }
-            }.navigationTitle("Pite")
+            
 
         }
 

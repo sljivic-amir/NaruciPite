@@ -10,7 +10,7 @@ import SwiftUI
 
 class User: ObservableObject{
     
-    @State var name = ""
+    var name = ""
     @State var address = ""
     @State var phoneNumber = ""
 
@@ -33,7 +33,7 @@ struct CreateUserView: View {
                 }
                 Button (
                 action:{
-                    
+                    print("imeee \(user.name)")
                 },label:{
                     Text("Potvrdi")
                         .frame(width: 250, height: 50.0)
